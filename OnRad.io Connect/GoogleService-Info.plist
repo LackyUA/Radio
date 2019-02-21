@@ -11,7 +11,7 @@
 	<key>REVERSED_CLIENT_ID</key>
 	<string>com.googleusercontent.apps.582629152458-s2ir21srdlggei87fhnj6t3ad6cen1n8</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA7Cs5ETvjz8sI6pd_uEBiB1MtI7e2Qpck</string>
+	<string>sd</string>
 	<key>GCM_SENDER_ID</key>
 	<string>582629152458</string>
 	<key>PLIST_VERSION</key>
@@ -23,15 +23,15 @@
 	<key>STORAGE_BUCKET</key>
 	<string>step-mining.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:582629152458:ios:005cc20a15be8744</string>
 	<key>DATABASE_URL</key>
