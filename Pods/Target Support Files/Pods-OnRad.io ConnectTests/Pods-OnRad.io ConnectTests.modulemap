@@ -1,0 +1,6 @@
+framework module Pods_OnRad_io_ConnectTests {
+  umbrella header "Pods-OnRad.io ConnectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

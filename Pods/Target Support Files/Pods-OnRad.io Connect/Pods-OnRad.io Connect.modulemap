@@ -1,0 +1,6 @@
+framework module Pods_OnRad_io_Connect {
+  umbrella header "Pods-OnRad.io Connect-umbrella.h"
+
+  export *
+  module * { export * }
+}

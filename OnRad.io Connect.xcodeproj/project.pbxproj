@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041033EA216DFA4300F9823E /* BaseSearchingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041033E9216DFA4300F9823E /* BaseSearchingCell.swift */; };
+		041033ED216DFACE00F9823E /* RecoSearchingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041033EC216DFACE00F9823E /* RecoSearchingCell.swift */; };
+		041033EF216DFB0200F9823E /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041033EE216DFB0200F9823E /* LoadingCell.swift */; };
+		041033F2216F345100F9823E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041033F1216F345100F9823E /* Song.swift */; };
+		041033F4216F34D400F9823E /* AddressBookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041033F3216F34D400F9823E /* AddressBookUser.swift */; };
+		041033F6216F3D1000F9823E /* Piper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041033F5216F3D1000F9823E /* Piper.swift */; };
+		0425A0C82162439C003E3AF7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425A0C72162439C003E3AF7 /* WelcomeViewController.swift */; };
+		0425A0CA2162513F003E3AF7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425A0C92162513F003E3AF7 /* SignUpViewController.swift */; };
+		0439FD3D216639BF00E79A6D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439FD3C216639BF00E79A6D /* SettingViewController.swift */; };
+		0439FD45216753D200E79A6D /* DialogBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0439FD44216753D200E79A6D /* DialogBox.xib */; };
+		044FE92621675608004B8F3E /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FE92521675608004B8F3E /* DialogView.swift */; };
+		045D61E821634E630052F339 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D61E721634E630052F339 /* MainScreenViewController.swift */; };
+		045D61EE216366610052F339 /* PipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D61ED216366610052F339 /* PipeViewController.swift */; };
+		045D61F02163668F0052F339 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D61EF2163668F0052F339 /* MusicViewController.swift */; };
+		045D61F32163732B0052F339 /* PiperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D61F22163732B0052F339 /* PiperCell.swift */; };
+		045D61F5216393410052F339 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D61F4216393410052F339 /* RequestCell.swift */; };
+		0471BBA0216609A200CBAD04 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471BB9F216609A200CBAD04 /* SongViewController.swift */; };
+		04A402602175E6E0005F3C91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4025F2175E6E0005F3C91 /* Constants.swift */; };
+		04A4026221760312005F3C91 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4026121760312005F3C91 /* PopupViewController.swift */; };
+		04A4026521761801005F3C91 /* PipeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4026421761801005F3C91 /* PipeRequest.swift */; };
+		04A4026721771667005F3C91 /* AddressBookPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4026621771667005F3C91 /* AddressBookPopupViewController.swift */; };
+		04A4026921772BB7005F3C91 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4026821772BB7005F3C91 /* Extensions.swift */; };
+		04A4026C217757B2005F3C91 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4026B217757B2005F3C91 /* Device.swift */; };
+		04F234472174798F00A598BC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F234462174798F00A598BC /* AudioPlayer.swift */; };
+		04F2344921747C8C00A598BC /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2344821747C8C00A598BC /* AppData.swift */; };
+		52C66CB6EF8D2785F33D064D /* Pods_OnRad_io_ConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8221CAD7E5A8C86643439596 /* Pods_OnRad_io_ConnectTests.framework */; };
+		77E6D6AC23A29C4604CA52CA /* Pods_OnRad_io_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC871CF2CE578556B0235ED /* Pods_OnRad_io_Connect.framework */; };
+		785855AE20D328CE000B14F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785855AD20D328CE000B14F1 /* AppDelegate.swift */; };
+		785855B020D328CE000B14F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785855AF20D328CE000B14F1 /* ViewController.swift */; };
+		785855B320D328CE000B14F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785855B120D328CE000B14F1 /* Main.storyboard */; };
+		785855B520D328CF000B14F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785855B420D328CF000B14F1 /* Assets.xcassets */; };
+		785855B820D328CF000B14F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785855B620D328CF000B14F1 /* LaunchScreen.storyboard */; };
+		785855C320D328CF000B14F1 /* OnRad_io_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785855C220D328CF000B14F1 /* OnRad_io_ConnectTests.swift */; };
+		785855CE20D328CF000B14F1 /* OnRad_io_ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785855CD20D328CF000B14F1 /* OnRad_io_ConnectUITests.swift */; };
+		786B43E920DD350C00FFA358 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 786B43E820DD350C00FFA358 /* GoogleService-Info.plist */; };
+		7874C66520E52BB900C035D2 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874C66420E52BB900C035D2 /* DataLoader.swift */; };
+		7874C66720E52BCB00C035D2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874C66620E52BCB00C035D2 /* Router.swift */; };
+		788C6E032142CA6E00BFFBB5 /* SearchViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6E022142CA6E00BFFBB5 /* SearchViewController2.swift */; };
+		788C6E052143267100BFFBB5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6E042143267100BFFBB5 /* SearchViewController.swift */; };
+		78D44E0620DAB115004D9590 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D44E0520DAB115004D9590 /* Helpers.swift */; };
+		E3C0DCD871D8F4AC7DB7597A /* Pods_OnRad_io_ConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338027AE2D10BAAD85E7A430 /* Pods_OnRad_io_ConnectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		785855BF20D328CF000B14F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 785855A220D328CE000B14F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785855A920D328CE000B14F1;
+			remoteInfo = "OnRad.io Connect";
+		};
+		785855CA20D328CF000B14F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 785855A220D328CE000B14F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785855A920D328CE000B14F1;
+			remoteInfo = "OnRad.io Connect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041033E9216DFA4300F9823E /* BaseSearchingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSearchingCell.swift; sourceTree = "<group>"; };
+		041033EC216DFACE00F9823E /* RecoSearchingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoSearchingCell.swift; sourceTree = "<group>"; };
+		041033EE216DFB0200F9823E /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		041033F1216F345100F9823E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		041033F3216F34D400F9823E /* AddressBookUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookUser.swift; sourceTree = "<group>"; };
+		041033F5216F3D1000F9823E /* Piper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piper.swift; sourceTree = "<group>"; };
+		0425A0C72162439C003E3AF7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0425A0C92162513F003E3AF7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0439FD3C216639BF00E79A6D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0439FD44216753D200E79A6D /* DialogBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogBox.xib; sourceTree = "<group>"; };
+		044FE92521675608004B8F3E /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
+		045D61E721634E630052F339 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		045D61ED216366610052F339 /* PipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeViewController.swift; sourceTree = "<group>"; };
+		045D61EF2163668F0052F339 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		045D61F22163732B0052F339 /* PiperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiperCell.swift; sourceTree = "<group>"; };
+		045D61F4216393410052F339 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		0471BB9F216609A200CBAD04 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		04A4025F2175E6E0005F3C91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04A4026121760312005F3C91 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		04A4026421761801005F3C91 /* PipeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeRequest.swift; sourceTree = "<group>"; };
+		04A4026621771667005F3C91 /* AddressBookPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookPopupViewController.swift; sourceTree = "<group>"; };
+		04A4026821772BB7005F3C91 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04A4026B217757B2005F3C91 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		04F234462174798F00A598BC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		04F2344821747C8C00A598BC /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		0C0658EC5E5B5707A3FC29BB /* Pods-OnRad.io ConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnRad.io ConnectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnRad.io ConnectTests/Pods-OnRad.io ConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		23918C6FBFA268D1240485E8 /* Pods-OnRad.io ConnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnRad.io ConnectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnRad.io ConnectUITests/Pods-OnRad.io ConnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		338027AE2D10BAAD85E7A430 /* Pods_OnRad_io_ConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnRad_io_ConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE1DBA2563362C5930F0DAA /* Pods-OnRad.io ConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnRad.io ConnectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnRad.io ConnectTests/Pods-OnRad.io ConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		654D11C836F41D67E7CD0957 /* Pods-OnRad.io ConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnRad.io ConnectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnRad.io ConnectUITests/Pods-OnRad.io ConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		785855AA20D328CE000B14F1 /* OnRad.io Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnRad.io Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		785855AD20D328CE000B14F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		785855AF20D328CE000B14F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		785855B220D328CE000B14F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		785855B420D328CF000B14F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		785855B720D328CF000B14F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		785855B920D328CF000B14F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785855BE20D328CF000B14F1 /* OnRad.io ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnRad.io ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		785855C220D328CF000B14F1 /* OnRad_io_ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnRad_io_ConnectTests.swift; sourceTree = "<group>"; };
+		785855C420D328CF000B14F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785855C920D328CF000B14F1 /* OnRad.io ConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnRad.io ConnectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		785855CD20D328CF000B14F1 /* OnRad_io_ConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnRad_io_ConnectUITests.swift; sourceTree = "<group>"; };
+		785855CF20D328CF000B14F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786B43E820DD350C00FFA358 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7874C66420E52BB900C035D2 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		7874C66620E52BCB00C035D2 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		788C6E022142CA6E00BFFBB5 /* SearchViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController2.swift; sourceTree = "<group>"; };
+		788C6E042143267100BFFBB5 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		78D44E0520DAB115004D9590 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		78D5281520E2B8B100E7BB94 /* OnRad.io Connect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OnRad.io Connect.entitlements"; sourceTree = "<group>"; };
+		7FC871CF2CE578556B0235ED /* Pods_OnRad_io_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnRad_io_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8221CAD7E5A8C86643439596 /* Pods_OnRad_io_ConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnRad_io_ConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA630A335A6B8288EE4F649A /* Pods-OnRad.io Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnRad.io Connect.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnRad.io Connect/Pods-OnRad.io Connect.release.xcconfig"; sourceTree = "<group>"; };
+		D8AFC2BC159565BCE09CDA40 /* Pods-OnRad.io Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnRad.io Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnRad.io Connect/Pods-OnRad.io Connect.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		785855A720D328CE000B14F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E6D6AC23A29C4604CA52CA /* Pods_OnRad_io_Connect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785855BB20D328CF000B14F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C66CB6EF8D2785F33D064D /* Pods_OnRad_io_ConnectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785855C620D328CF000B14F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C0DCD871D8F4AC7DB7597A /* Pods_OnRad_io_ConnectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041033F0216F342200F9823E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				041033F1216F345100F9823E /* Song.swift */,
+				041033F3216F34D400F9823E /* AddressBookUser.swift */,
+				041033F5216F3D1000F9823E /* Piper.swift */,
+				04A4026421761801005F3C91 /* PipeRequest.swift */,
+				04A4026B217757B2005F3C91 /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0439FD43216753B100E79A6D /* DialogBox xib */ = {
+			isa = PBXGroup;
+			children = (
+				0439FD44216753D200E79A6D /* DialogBox.xib */,
+				044FE92521675608004B8F3E /* DialogView.swift */,
+			);
+			path = "DialogBox xib";
+			sourceTree = "<group>";
+		};
+		045D61E921635F190052F339 /* Start screens */ = {
+			isa = PBXGroup;
+			children = (
+				0425A0C72162439C003E3AF7 /* WelcomeViewController.swift */,
+				0425A0C92162513F003E3AF7 /* SignUpViewController.swift */,
+			);
+			path = "Start screens";
+			sourceTree = "<group>";
+		};
+		045D61EA21635F350052F339 /* Main screens */ = {
+			isa = PBXGroup;
+			children = (
+				045D61E721634E630052F339 /* MainScreenViewController.swift */,
+				045D61EC21635F530052F339 /* Pipe screens */,
+				045D61EB21635F4A0052F339 /* Music screens */,
+			);
+			path = "Main screens";
+			sourceTree = "<group>";
+		};
+		045D61EB21635F4A0052F339 /* Music screens */ = {
+			isa = PBXGroup;
+			children = (
+				045D61EF2163668F0052F339 /* MusicViewController.swift */,
+				041033E9216DFA4300F9823E /* BaseSearchingCell.swift */,
+				041033EC216DFACE00F9823E /* RecoSearchingCell.swift */,
+				041033EE216DFB0200F9823E /* LoadingCell.swift */,
+				0471BB9F216609A200CBAD04 /* SongViewController.swift */,
+				04A4026621771667005F3C91 /* AddressBookPopupViewController.swift */,
+			);
+			path = "Music screens";
+			sourceTree = "<group>";
+		};
+		045D61EC21635F530052F339 /* Pipe screens */ = {
+			isa = PBXGroup;
+			children = (
+				045D61ED216366610052F339 /* PipeViewController.swift */,
+				045D61F22163732B0052F339 /* PiperCell.swift */,
+				045D61F4216393410052F339 /* RequestCell.swift */,
+				04A4026121760312005F3C91 /* PopupViewController.swift */,
+				0439FD3C216639BF00E79A6D /* SettingViewController.swift */,
+			);
+			path = "Pipe screens";
+			sourceTree = "<group>";
+		};
+		045D61F1216366B50052F339 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0439FD43216753B100E79A6D /* DialogBox xib */,
+				785855B120D328CE000B14F1 /* Main.storyboard */,
+				785855B620D328CF000B14F1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04F234452174797600A598BC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04F2344821747C8C00A598BC /* AppData.swift */,
+				04F234462174798F00A598BC /* AudioPlayer.swift */,
+				04A4025F2175E6E0005F3C91 /* Constants.swift */,
+				04A4026821772BB7005F3C91 /* Extensions.swift */,
+				7874C66620E52BCB00C035D2 /* Router.swift */,
+				7874C66420E52BB900C035D2 /* DataLoader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5BF38667383C7C0667DCDC34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8AFC2BC159565BCE09CDA40 /* Pods-OnRad.io Connect.debug.xcconfig */,
+				BA630A335A6B8288EE4F649A /* Pods-OnRad.io Connect.release.xcconfig */,
+				4FE1DBA2563362C5930F0DAA /* Pods-OnRad.io ConnectTests.debug.xcconfig */,
+				0C0658EC5E5B5707A3FC29BB /* Pods-OnRad.io ConnectTests.release.xcconfig */,
+				23918C6FBFA268D1240485E8 /* Pods-OnRad.io ConnectUITests.debug.xcconfig */,
+				654D11C836F41D67E7CD0957 /* Pods-OnRad.io ConnectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		785855A120D328CE000B14F1 = {
+			isa = PBXGroup;
+			children = (
+				785855AC20D328CE000B14F1 /* OnRad.io Connect */,
+				785855C120D328CF000B14F1 /* OnRad.io ConnectTests */,
+				785855CC20D328CF000B14F1 /* OnRad.io ConnectUITests */,
+				785855AB20D328CE000B14F1 /* Products */,
+				5BF38667383C7C0667DCDC34 /* Pods */,
+				8882E0DA5B0148D8E39EFB8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		785855AB20D328CE000B14F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				785855AA20D328CE000B14F1 /* OnRad.io Connect.app */,
+				785855BE20D328CF000B14F1 /* OnRad.io ConnectTests.xctest */,
+				785855C920D328CF000B14F1 /* OnRad.io ConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		785855AC20D328CE000B14F1 /* OnRad.io Connect */ = {
+			isa = PBXGroup;
+			children = (
+				785855AD20D328CE000B14F1 /* AppDelegate.swift */,
+				785855AF20D328CE000B14F1 /* ViewController.swift */,
+				788C6E022142CA6E00BFFBB5 /* SearchViewController2.swift */,
+				788C6E042143267100BFFBB5 /* SearchViewController.swift */,
+				78D44E0520DAB115004D9590 /* Helpers.swift */,
+				78D5281520E2B8B100E7BB94 /* OnRad.io Connect.entitlements */,
+				785855B420D328CF000B14F1 /* Assets.xcassets */,
+				786B43E820DD350C00FFA358 /* GoogleService-Info.plist */,
+				785855B920D328CF000B14F1 /* Info.plist */,
+				041033F0216F342200F9823E /* Models */,
+				04F234452174797600A598BC /* Helpers */,
+				045D61EA21635F350052F339 /* Main screens */,
+				045D61E921635F190052F339 /* Start screens */,
+				045D61F1216366B50052F339 /* Storyboards */,
+			);
+			path = "OnRad.io Connect";
+			sourceTree = "<group>";
+		};
+		785855C120D328CF000B14F1 /* OnRad.io ConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				785855C220D328CF000B14F1 /* OnRad_io_ConnectTests.swift */,
+				785855C420D328CF000B14F1 /* Info.plist */,
+			);
+			path = "OnRad.io ConnectTests";
+			sourceTree = "<group>";
+		};
+		785855CC20D328CF000B14F1 /* OnRad.io ConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				785855CD20D328CF000B14F1 /* OnRad_io_ConnectUITests.swift */,
+				785855CF20D328CF000B14F1 /* Info.plist */,
+			);
+			path = "OnRad.io ConnectUITests";
+			sourceTree = "<group>";
+		};
+		8882E0DA5B0148D8E39EFB8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FC871CF2CE578556B0235ED /* Pods_OnRad_io_Connect.framework */,
+				8221CAD7E5A8C86643439596 /* Pods_OnRad_io_ConnectTests.framework */,
+				338027AE2D10BAAD85E7A430 /* Pods_OnRad_io_ConnectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		785855A920D328CE000B14F1 /* OnRad.io Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785855D220D328CF000B14F1 /* Build configuration list for PBXNativeTarget "OnRad.io Connect" */;
+			buildPhases = (
+				665E331089ECB95D20C9BEEF /* [CP] Check Pods Manifest.lock */,
+				785855A620D328CE000B14F1 /* Sources */,
+				785855A720D328CE000B14F1 /* Frameworks */,
+				785855A820D328CE000B14F1 /* Resources */,
+				FC445EA3F34A7286B64757C8 /* [CP] Embed Pods Frameworks */,
+				A76B9F7616237341DD24CFD1 /* [CP] Copy Pods Resources */,
+				785718A320F52D0200DE858D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnRad.io Connect";
+			productName = "OnRad.io Connect";
+			productReference = 785855AA20D328CE000B14F1 /* OnRad.io Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		785855BD20D328CF000B14F1 /* OnRad.io ConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785855D520D328CF000B14F1 /* Build configuration list for PBXNativeTarget "OnRad.io ConnectTests" */;
+			buildPhases = (
+				4FA1BD8DA51EAA5EBD807C54 /* [CP] Check Pods Manifest.lock */,
+				785855BA20D328CF000B14F1 /* Sources */,
+				785855BB20D328CF000B14F1 /* Frameworks */,
+				785855BC20D328CF000B14F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785855C020D328CF000B14F1 /* PBXTargetDependency */,
+			);
+			name = "OnRad.io ConnectTests";
+			productName = "OnRad.io ConnectTests";
+			productReference = 785855BE20D328CF000B14F1 /* OnRad.io ConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		785855C820D328CF000B14F1 /* OnRad.io ConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785855D820D328CF000B14F1 /* Build configuration list for PBXNativeTarget "OnRad.io ConnectUITests" */;
+			buildPhases = (
+				32B45AA8D2AE352F3B8FA760 /* [CP] Check Pods Manifest.lock */,
+				785855C520D328CF000B14F1 /* Sources */,
+				785855C620D328CF000B14F1 /* Frameworks */,
+				785855C720D328CF000B14F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785855CB20D328CF000B14F1 /* PBXTargetDependency */,
+			);
+			name = "OnRad.io ConnectUITests";
+			productName = "OnRad.io ConnectUITests";
+			productReference = 785855C920D328CF000B14F1 /* OnRad.io ConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		785855A220D328CE000B14F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Igor Zharii";
+				TargetAttributes = {
+					785855A920D328CE000B14F1 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					785855BD20D328CF000B14F1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 785855A920D328CE000B14F1;
+					};
+					785855C820D328CF000B14F1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 785855A920D328CE000B14F1;
+					};
+				};
+			};
+			buildConfigurationList = 785855A520D328CE000B14F1 /* Build configuration list for PBXProject "OnRad.io Connect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 785855A120D328CE000B14F1;
+			productRefGroup = 785855AB20D328CE000B14F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				785855A920D328CE000B14F1 /* OnRad.io Connect */,
+				785855BD20D328CF000B14F1 /* OnRad.io ConnectTests */,
+				785855C820D328CF000B14F1 /* OnRad.io ConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		785855A820D328CE000B14F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785855B820D328CF000B14F1 /* LaunchScreen.storyboard in Resources */,
+				786B43E920DD350C00FFA358 /* GoogleService-Info.plist in Resources */,
+				785855B520D328CF000B14F1 /* Assets.xcassets in Resources */,
+				785855B320D328CE000B14F1 /* Main.storyboard in Resources */,
+				0439FD45216753D200E79A6D /* DialogBox.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785855BC20D328CF000B14F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785855C720D328CF000B14F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32B45AA8D2AE352F3B8FA760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnRad.io ConnectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FA1BD8DA51EAA5EBD807C54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnRad.io ConnectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665E331089ECB95D20C9BEEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnRad.io Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		785718A320F52D0200DE858D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\"${PODS_ROOT}/Fabric/run\" 3489ebf2f5cbb94cb5d049ca9bcb0c2902d21cc9 28442d678255335f7939cabad7cd19560c43ea044cd9f484b16d6972bb24aab9\n";
+		};
+		A76B9F7616237341DD24CFD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OnRad.io Connect/Pods-OnRad.io Connect-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnRad.io Connect/Pods-OnRad.io Connect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC445EA3F34A7286B64757C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OnRad.io Connect/Pods-OnRad.io Connect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnRad.io Connect/Pods-OnRad.io Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		785855A620D328CE000B14F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041033F2216F345100F9823E /* Song.swift in Sources */,
+				045D61F02163668F0052F339 /* MusicViewController.swift in Sources */,
+				045D61F5216393410052F339 /* RequestCell.swift in Sources */,
+				041033F6216F3D1000F9823E /* Piper.swift in Sources */,
+				04F2344921747C8C00A598BC /* AppData.swift in Sources */,
+				04F234472174798F00A598BC /* AudioPlayer.swift in Sources */,
+				041033ED216DFACE00F9823E /* RecoSearchingCell.swift in Sources */,
+				04A402602175E6E0005F3C91 /* Constants.swift in Sources */,
+				0471BBA0216609A200CBAD04 /* SongViewController.swift in Sources */,
+				788C6E032142CA6E00BFFBB5 /* SearchViewController2.swift in Sources */,
+				044FE92621675608004B8F3E /* DialogView.swift in Sources */,
+				0425A0C82162439C003E3AF7 /* WelcomeViewController.swift in Sources */,
+				041033F4216F34D400F9823E /* AddressBookUser.swift in Sources */,
+				0439FD3D216639BF00E79A6D /* SettingViewController.swift in Sources */,
+				788C6E052143267100BFFBB5 /* SearchViewController.swift in Sources */,
+				7874C66520E52BB900C035D2 /* DataLoader.swift in Sources */,
+				04A4026721771667005F3C91 /* AddressBookPopupViewController.swift in Sources */,
+				04A4026C217757B2005F3C91 /* Device.swift in Sources */,
+				041033EA216DFA4300F9823E /* BaseSearchingCell.swift in Sources */,
+				045D61F32163732B0052F339 /* PiperCell.swift in Sources */,
+				045D61EE216366610052F339 /* PipeViewController.swift in Sources */,
+				785855B020D328CE000B14F1 /* ViewController.swift in Sources */,
+				041033EF216DFB0200F9823E /* LoadingCell.swift in Sources */,
+				045D61E821634E630052F339 /* MainScreenViewController.swift in Sources */,
+				7874C66720E52BCB00C035D2 /* Router.swift in Sources */,
+				04A4026221760312005F3C91 /* PopupViewController.swift in Sources */,
+				04A4026921772BB7005F3C91 /* Extensions.swift in Sources */,
+				0425A0CA2162513F003E3AF7 /* SignUpViewController.swift in Sources */,
+				04A4026521761801005F3C91 /* PipeRequest.swift in Sources */,
+				78D44E0620DAB115004D9590 /* Helpers.swift in Sources */,
+				785855AE20D328CE000B14F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785855BA20D328CF000B14F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785855C320D328CF000B14F1 /* OnRad_io_ConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785855C520D328CF000B14F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785855CE20D328CF000B14F1 /* OnRad_io_ConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		785855C020D328CF000B14F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785855A920D328CE000B14F1 /* OnRad.io Connect */;
+			targetProxy = 785855BF20D328CF000B14F1 /* PBXContainerItemProxy */;
+		};
+		785855CB20D328CF000B14F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785855A920D328CE000B14F1 /* OnRad.io Connect */;
+			targetProxy = 785855CA20D328CF000B14F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		785855B120D328CE000B14F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				785855B220D328CE000B14F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		785855B620D328CF000B14F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				785855B720D328CF000B14F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		785855D020D328CF000B14F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		785855D120D328CF000B14F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		785855D320D328CF000B14F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8AFC2BC159565BCE09CDA40 /* Pods-OnRad.io Connect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OnRad.io Connect/OnRad.io Connect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 539CM894A6;
+				INFOPLIST_FILE = "OnRad.io Connect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iz.OnRad-io-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		785855D420D328CF000B14F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA630A335A6B8288EE4F649A /* Pods-OnRad.io Connect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OnRad.io Connect/OnRad.io Connect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 539CM894A6;
+				INFOPLIST_FILE = "OnRad.io Connect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iz.OnRad-io-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		785855D620D328CF000B14F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE1DBA2563362C5930F0DAA /* Pods-OnRad.io ConnectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57728QK35Z;
+				INFOPLIST_FILE = "OnRad.io ConnectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iz.OnRad-io-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnRad.io Connect.app/OnRad.io Connect";
+			};
+			name = Debug;
+		};
+		785855D720D328CF000B14F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0658EC5E5B5707A3FC29BB /* Pods-OnRad.io ConnectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57728QK35Z;
+				INFOPLIST_FILE = "OnRad.io ConnectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iz.OnRad-io-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnRad.io Connect.app/OnRad.io Connect";
+			};
+			name = Release;
+		};
+		785855D920D328CF000B14F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23918C6FBFA268D1240485E8 /* Pods-OnRad.io ConnectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57728QK35Z;
+				INFOPLIST_FILE = "OnRad.io ConnectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iz.OnRad-io-ConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OnRad.io Connect";
+			};
+			name = Debug;
+		};
+		785855DA20D328CF000B14F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654D11C836F41D67E7CD0957 /* Pods-OnRad.io ConnectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57728QK35Z;
+				INFOPLIST_FILE = "OnRad.io ConnectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iz.OnRad-io-ConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OnRad.io Connect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		785855A520D328CE000B14F1 /* Build configuration list for PBXProject "OnRad.io Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785855D020D328CF000B14F1 /* Debug */,
+				785855D120D328CF000B14F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785855D220D328CF000B14F1 /* Build configuration list for PBXNativeTarget "OnRad.io Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785855D320D328CF000B14F1 /* Debug */,
+				785855D420D328CF000B14F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785855D520D328CF000B14F1 /* Build configuration list for PBXNativeTarget "OnRad.io ConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785855D620D328CF000B14F1 /* Debug */,
+				785855D720D328CF000B14F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785855D820D328CF000B14F1 /* Build configuration list for PBXNativeTarget "OnRad.io ConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785855D920D328CF000B14F1 /* Debug */,
+				785855DA20D328CF000B14F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 785855A220D328CE000B14F1 /* Project object */;
+}
