@@ -33,10 +33,10 @@ class PintVC : UIViewController {
         self.view.backgroundColor = UIColor(hex: "eef1ef")
         title = ""
         
-        if !self.isKind(of: SearchViewController.self) {
-            let searchButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(PintVC.searchButtonTapped))
-            self.navigationItem.setRightBarButton(searchButton, animated: false)
-        }
+//        if !self.isKind(of: SearchViewController.self) {
+//            let searchButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(PintVC.searchButtonTapped))
+//            self.navigationItem.setRightBarButton(searchButton, animated: false)
+//        }
     }
     
     //    override func viewWillAppear(_ animated: Bool) {

@@ -159,8 +159,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-        let vc = window?.rootViewController as! ViewController
-        vc.getAllInfoIfSignedIn()
+//        let vc = window?.rootViewController as! ViewController
+//        vc.getAllInfoIfSignedIn()
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {

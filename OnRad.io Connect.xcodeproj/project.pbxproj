@@ -35,7 +35,6 @@
 		52C66CB6EF8D2785F33D064D /* Pods_OnRad_io_ConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8221CAD7E5A8C86643439596 /* Pods_OnRad_io_ConnectTests.framework */; };
 		77E6D6AC23A29C4604CA52CA /* Pods_OnRad_io_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC871CF2CE578556B0235ED /* Pods_OnRad_io_Connect.framework */; };
 		785855AE20D328CE000B14F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785855AD20D328CE000B14F1 /* AppDelegate.swift */; };
-		785855B020D328CE000B14F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785855AF20D328CE000B14F1 /* ViewController.swift */; };
 		785855B320D328CE000B14F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785855B120D328CE000B14F1 /* Main.storyboard */; };
 		785855B520D328CF000B14F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785855B420D328CF000B14F1 /* Assets.xcassets */; };
 		785855B820D328CF000B14F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785855B620D328CF000B14F1 /* LaunchScreen.storyboard */; };
@@ -44,8 +43,6 @@
 		786B43E920DD350C00FFA358 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 786B43E820DD350C00FFA358 /* GoogleService-Info.plist */; };
 		7874C66520E52BB900C035D2 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874C66420E52BB900C035D2 /* DataLoader.swift */; };
 		7874C66720E52BCB00C035D2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874C66620E52BCB00C035D2 /* Router.swift */; };
-		788C6E032142CA6E00BFFBB5 /* SearchViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6E022142CA6E00BFFBB5 /* SearchViewController2.swift */; };
-		788C6E052143267100BFFBB5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6E042143267100BFFBB5 /* SearchViewController.swift */; };
 		78D44E0620DAB115004D9590 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D44E0520DAB115004D9590 /* Helpers.swift */; };
 		E3C0DCD871D8F4AC7DB7597A /* Pods_OnRad_io_ConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338027AE2D10BAAD85E7A430 /* Pods_OnRad_io_ConnectUITests.framework */; };
 /* End PBXBuildFile section */
@@ -100,7 +97,6 @@
 		654D11C836F41D67E7CD0957 /* Pods-OnRad.io ConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnRad.io ConnectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnRad.io ConnectUITests/Pods-OnRad.io ConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		785855AA20D328CE000B14F1 /* OnRad.io Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnRad.io Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		785855AD20D328CE000B14F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		785855AF20D328CE000B14F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		785855B220D328CE000B14F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		785855B420D328CF000B14F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		785855B720D328CF000B14F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,8 +110,6 @@
 		786B43E820DD350C00FFA358 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7874C66420E52BB900C035D2 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		7874C66620E52BCB00C035D2 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		788C6E022142CA6E00BFFBB5 /* SearchViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController2.swift; sourceTree = "<group>"; };
-		788C6E042143267100BFFBB5 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		78D44E0520DAB115004D9590 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		78D5281520E2B8B100E7BB94 /* OnRad.io Connect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OnRad.io Connect.entitlements"; sourceTree = "<group>"; };
 		7FC871CF2CE578556B0235ED /* Pods_OnRad_io_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnRad_io_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -279,9 +273,6 @@
 			isa = PBXGroup;
 			children = (
 				785855AD20D328CE000B14F1 /* AppDelegate.swift */,
-				785855AF20D328CE000B14F1 /* ViewController.swift */,
-				788C6E022142CA6E00BFFBB5 /* SearchViewController2.swift */,
-				788C6E042143267100BFFBB5 /* SearchViewController.swift */,
 				78D44E0520DAB115004D9590 /* Helpers.swift */,
 				78D5281520E2B8B100E7BB94 /* OnRad.io Connect.entitlements */,
 				785855B420D328CF000B14F1 /* Assets.xcassets */,
@@ -618,19 +609,16 @@
 				041033ED216DFACE00F9823E /* RecoSearchingCell.swift in Sources */,
 				04A402602175E6E0005F3C91 /* Constants.swift in Sources */,
 				0471BBA0216609A200CBAD04 /* SongViewController.swift in Sources */,
-				788C6E032142CA6E00BFFBB5 /* SearchViewController2.swift in Sources */,
 				044FE92621675608004B8F3E /* DialogView.swift in Sources */,
 				0425A0C82162439C003E3AF7 /* WelcomeViewController.swift in Sources */,
 				041033F4216F34D400F9823E /* AddressBookUser.swift in Sources */,
 				0439FD3D216639BF00E79A6D /* SettingViewController.swift in Sources */,
-				788C6E052143267100BFFBB5 /* SearchViewController.swift in Sources */,
 				7874C66520E52BB900C035D2 /* DataLoader.swift in Sources */,
 				04A4026721771667005F3C91 /* AddressBookPopupViewController.swift in Sources */,
 				04A4026C217757B2005F3C91 /* Device.swift in Sources */,
 				041033EA216DFA4300F9823E /* BaseSearchingCell.swift in Sources */,
 				045D61F32163732B0052F339 /* PiperCell.swift in Sources */,
 				045D61EE216366610052F339 /* PipeViewController.swift in Sources */,
-				785855B020D328CE000B14F1 /* ViewController.swift in Sources */,
 				041033EF216DFB0200F9823E /* LoadingCell.swift in Sources */,
 				045D61E821634E630052F339 /* MainScreenViewController.swift in Sources */,
 				7874C66720E52BCB00C035D2 /* Router.swift in Sources */,
